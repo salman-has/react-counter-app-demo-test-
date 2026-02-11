@@ -49,7 +49,6 @@ demo-test/
 ├── index.html
 ├── package.json
 └── vite.config.js
-|__ README.md
 
 
 
