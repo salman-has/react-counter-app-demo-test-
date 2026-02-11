@@ -62,3 +62,11 @@ Code Link:  https://github.com/your-username/react-counter-app-demo-test.git
 Live Demo : https://counter-reactvite-app.netlify.app/
 
 
+## 🎯 Learning Outcome
+
+- Understanding React state management
+- Component structure
+- Vite project setup
+- Basic UI handling
+
+
