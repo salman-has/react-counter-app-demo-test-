@@ -1,0 +1,48 @@
+/* Full page layout */
+.page {
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #f5f5f5;
+}
+
+
+
+/* Common button style */
+.nav-btn {
+  position: fixed;
+  top: 20px;
+  padding: 8px 16px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Left button */
+.back-btn {
+  left: 20px;
+}
+
+/* Right button */
+.github-btn {
+  right: 20px;
+}
+
+/* Hover effect */
+.nav-btn:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .nav-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
